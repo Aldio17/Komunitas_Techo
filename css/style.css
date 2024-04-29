@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: left;
+}
+h1,h2,h3,
+h4,h5,h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-family: 'Josefin Sans', sans-serif;	
+}
+h1,h2,h3,
+h4,h5,h6,p,ul,li,a,span {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color:#555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1920px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.inside-container {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #7b6cd5;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+/*Bannerblakgrun*/
+.yoga-template .banner {
+	background-image: url(../img/Judul\ \(1\)\ 1\ \(1\).png);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.yoga-template .banner .banner-overlay {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    z-index: 2;
+}
+
+.yoga-template .banner .top-bar-left a {
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	vertical-align: middle
+}
+
+.yoga-template .banner .top-bar-right {
+	text-align: right;
+}
+.yoga-template .banner .top-bar-right a {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-weight: 400;
+	vertical-align: middle
+}
+.yoga-template .banner .top-bar-left a:hover,
+.yoga-template .banner .top-bar-right a:hover{
+	color:#fe86d4;
+	text-decoration: none;
+}
+.yoga-template .banner .top-bar-left i,
+.top-bar-right i {
+	font-size: 16px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    color: #3e2d40;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+/*atur ukuran gambar1*/
+.yoga-template .banner .banner-content {
+	padding: 350px 150px;
+}
+.yoga-template .banner .banner-content .content-col {
+	text-align: center;
+	z-index: 3;
+}
+.yoga-template .banner .banner-content .site-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	padding-right: 15px;
+}
+.yoga-template .banner .banner-content .site-title-desc {
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	margin-bottom: 51px;
+	width: 97%;
+}
+/*bagian kotak mabar kuy*/
+.yoga-template .banner .banner-content a.banner-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	padding: 21px 32px 19px;
+	background-color: #d43917;
+	color:#fff;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+.yoga-template .banner .banner-content a.banner-btn:hover {
+	text-decoration: none;
+	color: #6ed56c;
+}
+/*Service*/
+.yoga-template .service-section {
+	padding: 62px 15px;
+	
+}
+.yoga-template .service-section .service-detail {
+	text-align: center;
+}
+.yoga-template .service-section .service-detail a:hover {
+	text-decoration: none;
+}
+.yoga-template .service-section .service-detail a:hover .service-title{
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .service-section .service-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.75px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.yoga-template .service-section .service-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.40px;
+}
+.yoga-template .service-section .service-detail-img {
+	max-width: 90px;
+ 	height: auto;
+}
+
+/*Advantages*/
+.yoga-template .advantages-section {
+	padding: 400px 15px 100px;
+}
+.yoga-template .advantages-section {
+	background-image: url(../img/Judul\ \(5\)\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.yoga-template .advantages-section .advantages-detail a:hover {
+	text-decoration: none;
+}
+.yoga-template .advantages-section .advantages-detail a:hover .advantages-detail-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .advantages-section .advantages-detail-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	color: #444;
+}
+.yoga-template .advantages-section .advantages-detail-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px; 
+	color: #666;
+}
+.yoga-template .advantages-section .advantages-detail-img svg{
+	max-width: 50px;
+	height: auto;
+}
+.yoga-template .advantages-section .advantages-detail-soul,
+.yoga-template .advantages-section .advantages-detail-health,
+.yoga-template .advantages-section .advantages-detail-relax {
+	text-align: right;
+	width: 50%;	
+}
+.yoga-template .advantages-section .advantages-detail-soul {
+	margin: 0 0 24px auto; 
+}
+.yoga-template .advantages-section .advantages-detail-health {
+	margin: 0 auto 24px;
+}
+.yoga-template .advantages-section .advantages-detail-energy,
+.yoga-template .advantages-section .advantages-detail-mind,
+.yoga-template .advantages-section .advantages-detail-meditat {
+	width: 50%;	
+}
+.yoga-template .advantages-section .advantages-detail-energy {
+	margin-bottom: 24px;
+}
+.yoga-template .advantages-section .advantages-detail-mind {
+	margin: 0 auto 24px;
+}
+.yoga-template .advantages-section .advantages-detail-meditat {
+	margin-left: auto; 
+}
+/*Yoga Place*/
+.yoga-template .yogaPlace-section {
+	padding: 355px 500px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.yogaPlace-section {
+	background-image: url(../img/Judul\ \(2\)\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.yoga-template .yogaPlace-section .yogaPlace-img {
+	width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    overflow: hidden;
+}
+.yoga-template .yogaPlace-section .yogaPlace-img .yogaPlace-in-img {
+	max-width: 145px;
+    border-radius: 50%;
+}
+.yoga-template .yogaPlace-section .yogaPlace-col a:hover {
+	text-decoration: none;
+}
+.yoga-template .yogaPlace-section .yogaPlace-col a:hover .yogaPlace-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.yoga-template .yogaPlace-section .yogaPlace-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	line-height: 40px;
+	letter-spacing: 0.88px;
+	font-weight: 600;
+	color: #434343;
+}
+.yoga-template .yogaPlace-section .yogaPlace-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	font-weight: 400;
+	color: #666;
+}
+
+/*Copyright*/
+.yoga-template .footer .copyright {
+	padding: 30px 15px;
+	background-color: #c16402;
+	color: #fff;
+	font-family: inherit;
+	font-size: 30px;
+	line-height: 26px;
+}
